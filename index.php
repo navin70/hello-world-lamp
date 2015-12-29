@@ -18,6 +18,7 @@
 <body>
 	<img id="logo" src="logo.png" />
 	<h1><?php echo "Hello world!"; ?></h1>
+	<h1><?php echo "LAMP Server is Running "; ?></h1>
 	<?php if(!$link) { ?>
 		<h2>Can't connect to local MySQL Server!</h2>
 	<?php } else { ?>
